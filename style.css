@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+.header-main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    color: white;
+    height: 70px;
+}
+
+#logotipo{
+    width: 140px;
+    margin-right: 170px;
+}
+
+.head{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: 50%;
+}
+
+.ul1{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.li1{
+    margin-left: 30px;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+#li{
+    margin-left: 30px;
+}
+
+.li1:hover{
+    color: #1ed760;
+}
+
+.main{
+    height: 368px;
+    width: 100%;
+    background-color: #ffd4db;
+}
+
+.main-child{
+    width: 800px;
+    height: 100%;
+    margin-left: 280px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#main-h1{
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 1000;
+    line-height: 48px;
+    color: black;
+    margin-top: 25px;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+#main-h2{
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 36px;
+    color: black;
+    margin: 28px 0px;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.button{
+    font-size: 15px;
+    padding: 10px 25px;
+    font-weight: 700;
+    border-radius: 35px;
+    line-height: 23px;
+    color: white;
+    border: 1px solid black;
+    text-transform: uppercase;
+}
+
+.btn1{
+    background-color: rgb(31, 30, 30);
+    padding: 10px 30px;
+}
+
+.btn2{
+    background-color: #ffd4db;
+    color: black;
+    border: 2px solid black;
+}
+
+.main-footer{
+    display: inline-block;
+    margin-top: 30px;
+    font-size: 0.6873rem;
+}
+
+.termos{
+    text-decoration: underline;
+}
+
+.container{
+    height: 575px;
+    width: 100%;
+    color: black;
+}
+
+.header-container{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 900;
+    line-height: 46px;
+    margin-top: 83px;
+}
+
+.contain{
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 740px;
+}
+
+.ul2{
+    margin-top: 85px;
+    margin-right: 140px;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.li2{
+    margin-left: 140px;
+}
+
+.textoImg{
+    width: 200px;
+}
+
+.textoImg h2{
+    font-size: 21px;
+    font-weight: 800;
+    line-height: 29px;
+}
+
+.textoImg span{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 26px;
+}
